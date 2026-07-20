@@ -406,3 +406,64 @@ text-align:center;
 padding:30px;
 
 }
+.quote{
+
+margin-top:25px;
+
+font-size:22px;
+
+font-style:italic;
+
+color:#666;
+
+}
+
+.impact{
+
+padding:80px 8%;
+
+background:#0B3D91;
+
+color:white;
+
+text-align:center;
+
+}
+
+.impact h2{
+
+margin-bottom:40px;
+
+font-size:38px;
+
+}
+
+.impact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+.impact-grid div{
+
+background:white;
+
+color:#0B3D91;
+
+padding:30px;
+
+border-radius:15px;
+
+}
+
+.impact-grid h3{
+
+font-size:45px;
+
+margin-bottom:10px;
+
+}
