@@ -278,6 +278,39 @@ section h2::after{
 }
 
 
+/* Awards Section */
+
+#awards .card{
+
+border:none;
+
+border-radius:15px;
+
+transition:.4s;
+
+}
+
+
+#awards .card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+#awards i{
+
+transition:.3s;
+
+}
+
+
+#awards .card:hover i{
+
+transform:scale(1.2);
+
+}
+
 
 /* =========================
    CONTACT
