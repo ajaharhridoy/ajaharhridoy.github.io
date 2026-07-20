@@ -471,3 +471,48 @@ transition:.3s;
 transform:translateX(10px);
 
 }
+
+/* ===============================
+   DARK MODE
+================================ */
+
+
+.dark-mode{
+
+background:#121212;
+
+color:white;
+
+}
+
+
+.dark-mode .card{
+
+background:#1e1e1e;
+
+color:white;
+
+}
+
+
+.dark-mode .bg-light{
+
+background:#181818 !important;
+
+}
+
+
+.dark-mode h2,
+.dark-mode h4,
+.dark-mode h5{
+
+color:#66b2ff;
+
+}
+
+
+.dark-mode p{
+
+color:#ddd;
+
+}
