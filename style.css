@@ -718,3 +718,82 @@ color:#0d6efd !important;
 font-weight:600;
 
 }
+
+/*=========================
+HOME
+==========================*/
+
+.hero-section{
+    padding:90px 0;
+    background:linear-gradient(135deg,#ffffff,#f5f9ff);
+}
+
+.welcome{
+    color:#0d6efd;
+    font-size:22px;
+    font-weight:600;
+}
+
+.hero-title{
+    font-size:70px;
+    font-weight:800;
+    margin-top:10px;
+    line-height:1.1;
+}
+
+.hero-subtitle{
+    color:#6c757d;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.hero-role{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.hero-role span{
+    margin:0 10px;
+    color:#0d6efd;
+}
+
+.hero-text{
+    font-size:20px;
+    line-height:1.8;
+    color:#555;
+    max-width:700px;
+}
+
+.hero-btn{
+    margin-top:35px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.interest{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:35px;
+}
+
+.interest span{
+    background:#eef5ff;
+    padding:10px 18px;
+    border-radius:30px;
+    font-weight:500;
+    color:#0d6efd;
+}
+
+.hero-image{
+    width:430px;
+    border-radius:50%;
+    border:8px solid white;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.hero-image:hover{
+    transform:translateY(-8px);
+}
