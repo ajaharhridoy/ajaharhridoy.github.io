@@ -57,66 +57,64 @@ body{
 
 
 
-/* =========================
-   HERO SECTION
-========================= */
+/*==========================
+Hero Section
+==========================*/
 
+.hero-section{
 
-#home{
+padding:100px 0;
 
-    min-height:90vh;
-
-    display:flex;
-
-    align-items:center;
-
-}
-
-
-
-#home h1{
-
-    color:#0d6efd;
-
-    font-weight:800;
+background:linear-gradient(
+135deg,
+#ffffff,
+#f8fbff,
+#eef5ff
+);
 
 }
 
+.hero-section h1{
 
+font-weight:800;
 
-#home h3{
-
-    font-weight:600;
-
-}
-
-
-#home p{
-
-    font-size:18px;
+line-height:1.1;
 
 }
 
+.hero-section h3{
 
-/* Profile Image */
-
-
-#home img{
-
-    border:8px solid white;
-
-    transition:.4s;
+font-size:2rem;
 
 }
 
+.hero-section p{
 
-
-#home img:hover{
-
-    transform:scale(1.05);
+line-height:1.8;
 
 }
 
+.hero-img{
+
+width:420px;
+
+max-width:100%;
+
+border-radius:50%;
+
+border:8px solid white;
+
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+transition:.4s;
+
+}
+
+.hero-img:hover{
+
+transform:scale(1.03);
+
+}
 
 
 /* =========================
