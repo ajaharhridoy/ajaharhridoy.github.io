@@ -651,3 +651,23 @@ font-size:16px;
 font-weight:600;
 
 }
+
+/* ===============================
+   Education
+================================ */
+
+#education .card{
+
+border-radius:15px;
+
+transition:.3s;
+
+}
+
+#education .card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
