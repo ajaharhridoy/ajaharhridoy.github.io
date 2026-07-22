@@ -615,6 +615,46 @@ box-shadow:0 15px 35px rgba(0,0,0,.15);
 
 }
 
+/* Core Skills */
+
+#skills .card{
+
+border-radius:18px;
+
+transition:.35s;
+
+}
+
+#skills .card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 40px rgba(13,110,253,.15);
+
+}
+
+#skills h5{
+
+font-weight:700;
+
+color:#0d6efd;
+
+margin-bottom:15px;
+
+}
+
+#skills ul{
+
+padding-left:20px;
+
+}
+
+#skills li{
+
+margin-bottom:8px;
+
+}
+
 /* ===============================
    Research Skills
 ================================ */
