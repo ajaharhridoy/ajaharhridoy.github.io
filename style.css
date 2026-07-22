@@ -821,3 +821,39 @@ HOME
     border:8px solid #0d6efd;
     box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
+
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode section{
+    background:#121212 !important;
+}
+
+.dark-mode .card{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark-mode .navbar{
+    background:#000 !important;
+}
+
+.dark-mode .btn-light{
+    background:#ffc107;
+    color:#000;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5{
+    color:#4dabff;
+}
+
+.dark-mode p,
+.dark-mode li{
+    color:#ddd;
+}
