@@ -919,3 +919,23 @@ margin-top:40px;
 }
 
 }
+
+/* Activities & Training */
+
+#activities .card,
+#training .card{
+
+border-radius:15px;
+
+transition:.3s;
+
+}
+
+#activities .card:hover,
+#training .card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
