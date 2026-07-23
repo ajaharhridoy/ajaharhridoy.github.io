@@ -429,7 +429,7 @@ color:white;
 }
 
 
-.dark-mode .card{
+body.dark-mode .card{
 
 background:#1e1e1e;
 
@@ -438,23 +438,23 @@ color:white;
 }
 
 
-.dark-mode .bg-light{
+body.dark-mode .bg-light{
 
 background:#181818 !important;
 
 }
 
 
-.dark-mode h2,
-.dark-mode h4,
-.dark-mode h5{
+body.dark-mode h2,
+body.dark-mode h4,
+body.dark-mode h5{
 
 color:#66b2ff;
 
 }
 
 
-.dark-mode p{
+body.dark-mode p{
 
 color:#ddd;
 
