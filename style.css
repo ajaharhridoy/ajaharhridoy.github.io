@@ -420,7 +420,7 @@ margin-top:40px;
 ================================ */
 
 
-body.dark-mode{
+/* body.dark-mode{
 
 background:#121212;
 
@@ -458,6 +458,20 @@ body.dark-mode p{
 
 color:#ddd;
 
+} */
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .card {
+    background-color: #222;
+    color: white;
 }
 
 /* ===============================
